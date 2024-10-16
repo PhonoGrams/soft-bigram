@@ -21,18 +21,6 @@ func TestSoftBigram_DefaultWeights(t *testing.T) {
 	require.InDelta(t, 0.93, NormalizeSoftBigram("adam", "adams", DefaultWeights), 0.01)
 }
 
-var Table4Weights = Weights{
-	Delete:        1.0, // Corresponds to wt2
-	Insert:        0.2, // Corresponds to wt4
-	Match:         0.0, // Corresponds to wt1
-	Replace:       0.2, // Corresponds to wt5
-	Transpose:     0.0, // Corresponds to wt3
-	PartialTrans1: 1.0, // Corresponds to wt6
-	PartialTrans2: 1.0, // Corresponds to wt7
-	LCS1:          0.5, // Corresponds to wt8 (first LCS adjustment)
-	LCS2:          0.5, // Corresponds to wt9 (second LCS adjustment)
-}
-
 func TestSoftBigram_Table4(t *testing.T) {
 	require.InDelta(t, 0.981, NormalizeSoftBigram("precede", "preceed", Table4Weights), 0.01)
 	require.InDelta(t, 0.991, NormalizeSoftBigram("promise", "promiss", Table4Weights), 0.01)

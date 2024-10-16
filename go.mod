@@ -1,8 +1,11 @@
-module github.com/textgram/soft_bigram
+module github.com/PhonoGrams/soft_bigram
 
 go 1.23.2
 
-require github.com/stretchr/testify v1.9.0
+require (
+	github.com/stretchr/testify v1.9.0
+	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
