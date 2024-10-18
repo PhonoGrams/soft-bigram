@@ -34,7 +34,4 @@ jobs:
 
     - name: Experiments
       run: |
-        cp makefile experiments/makefile
-        cp experiments && make check
-      env:
-        GOTEST_FLAGS: "-v"
+        cd ./experiments && go test ./... -v -count 1
