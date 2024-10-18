@@ -21,6 +21,7 @@ func TestSoftBigram_DefaultWeights(t *testing.T) {
 	require.InDelta(t, 0.93, NormalizeSoftBigram("adam", "adams", DefaultWeights), 0.01)
 }
 
+//nolint:misspell
 func TestSoftBigram_Table4(t *testing.T) {
 	require.InDelta(t, 0.981, NormalizeSoftBigram("precede", "preceed", Table4Weights), 0.01)
 	require.InDelta(t, 0.991, NormalizeSoftBigram("promise", "promiss", Table4Weights), 0.01)
