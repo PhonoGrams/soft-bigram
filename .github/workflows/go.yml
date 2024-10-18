@@ -28,13 +28,12 @@ jobs:
       run: choco install -y make mingw
 
     - name: Tests
-      run: |
-        make check
+      run: make check
       env:
         GOTEST_FLAGS: "-v"
 
     - name: Experiments
-      run: |
-        cd ./experiments/ && make check
+      run: make check
       env:
         GOTEST_FLAGS: "-v"
+        GOTEST_PKGS: "./experiments/..."
