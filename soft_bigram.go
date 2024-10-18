@@ -4,15 +4,12 @@ import (
 	"math"
 )
 
-// ComputeBigrams generates bigrams from a given string using runes.
+// ComputeBigrams generates bigrams from a given string, working with runes.
 func ComputeBigrams(s string) []string {
-	runes := []rune(s)
 	var bigrams []string
+	runes := []rune(s)
 	for i := 0; i < len(runes)-1; i++ {
-		// if runes[i] == ' ' || runes[i+1] == ' ' {
-		// 	continue
-		// }
-		bigram := string(runes[i]) + string(runes[i+1])
+		bigram := string(runes[i : i+2])
 		bigrams = append(bigrams, bigram)
 	}
 	return bigrams
