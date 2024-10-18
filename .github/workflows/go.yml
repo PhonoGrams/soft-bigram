@@ -33,7 +33,8 @@ jobs:
         GOTEST_FLAGS: "-v"
 
     - name: Experiments
-      run: make check
+      run: |
+        cp makefile experiments/makefile
+        cp experiments && make check
       env:
         GOTEST_FLAGS: "-v"
-        GOTEST_PKGS: "./experiments/..."
