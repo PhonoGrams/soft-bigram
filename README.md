@@ -9,7 +9,7 @@ A Go implementation of Soft Bigrams.
 
 ## References
 
-- [Soft Bigram distance for names matching](./docs/papers/Soft Bigram distance for names matching.pdf)
+- [Soft Bigram distance for names matching](./docs/papers/Soft_Bigram_distance_for_names_matching.pdf)
    - [salahalhagree/Soft-Bigram-Distance](https://github.com/salahalhagree/Soft-Bigram-Distance)
 
 ## Supported and tested platforms
