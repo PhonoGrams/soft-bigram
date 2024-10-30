@@ -1,9 +1,9 @@
-# soft-bigram
+# soft_bigram
 
-[![GoDoc](https://godoc.org/github.com/PhonoGrams/soft-bigram?status.svg)](https://godoc.org/github.com/PhonoGrams/soft-bigram)
-[![Build Status](https://github.com/PhonoGrams/soft-bigram/workflows/Go/badge.svg)](https://github.com/PhonoGrams/soft-bigram/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/PhonoGrams/soft-bigram)](https://goreportcard.com/report/github.com/PhonoGrams/soft-bigram)
-[![Apache 2 License](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com/PhonoGrams/soft-bigram/master/LICENSE)
+[![GoDoc](https://godoc.org/github.com/PhonoGrams/soft_bigram?status.svg)](https://godoc.org/github.com/PhonoGrams/soft_bigram)
+[![Build Status](https://github.com/PhonoGrams/soft_bigram/workflows/Go/badge.svg)](https://github.com/PhonoGrams/soft_bigram/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/PhonoGrams/soft_bigram)](https://goreportcard.com/report/github.com/PhonoGrams/soft_bigram)
+[![Apache 2 License](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com/PhonoGrams/soft_bigram/master/LICENSE)
 
 A Go implementation of Soft Bigrams.
 

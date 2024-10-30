@@ -1,4 +1,4 @@
-module github.com/PhonoGrams/soft-bigram/experiments
+module github.com/PhonoGrams/soft_bigram/experiments
 
 go 1.23.2
 
